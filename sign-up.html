@@ -9,67 +9,62 @@
 </head>
 <body>
 
-  <div class="form-layout">
-    
-    <div class="left-side">
+  <div class="sign-up-form">
+
+    <div class="img-container">
       <img src="images/dave-adamson-XXqNsborcjU-unsplash.jpg" alt="football">
     </div>
 
-    <div class="right-side">
+    <div class="form-layout">
       <h1>Sideline</h1>
       <p>This is not a real form to sign up for any kind of service. Sign Up <em>now</em>!</p>
+      <div class="form-container">
+        <form action="example.com/sign-up" method="post">
+          <div class="form-content">
+            <div class="form-group">
+              <label for="firstName">First Name:</label>
+              <input type="text"
+              name="firstName"
+              id="firstName" 
+              placeholder="John" 
+              required>
+              
+              <label for="email">Email:</label>
+              <input type="email"
+              name="email" 
+              id="email" 
+              required>
 
-      <form action="example.com/sign-up" method="post">
-        <div>
-          <label for="firstName">First Name:</label>
-          <input type="text"
-          name="firstName"
-          id="firstName" 
-          placeholder="John" 
-          required>
-        </div>
+              <label for="pwd">Create password:</label>
+              <input type="text"
+              name="pwd" 
+              id="pwd"
+              required>
+            </div>
 
-        <div>
-          <label for="lastName">Last Name:</label>
-          <input type="text" 
-          name="lastName" 
-          id="lastName"
-          placeholder="Doe" 
-          required>
-        </div>
+            <div class="form-group">
+              <label for="lastName">Last Name:</label>
+              <input type="text" 
+              name="lastName" 
+              id="lastName"
+              placeholder="Doe" 
+              required>
 
-        <div>
-        <label for="email">Email:</label>
-        <input type="email"
-         name="email" 
-         id="email" 
-         required>
-        </div>
+              <label for="username">Create username:</label>
+              <input type="text"
+              name="username" 
+              id="username" 
+              required>
 
-        <div>
-        <label for="username">Create username:</label>
-        <input type="text"
-         name="username" 
-         id="username" 
-         required>
-        </div>
-
-        <div>
-        <label for="pwd">Create password:</label>
-        <input type="text"
-          name="pwd" 
-          id="pwd"
-          required>
-        </div>
-
-        <div>
-        <label for="confirm-pwd">Confirm password:</label>
-        <input type="text"
-          name="pwd" 
-          id="confirm-pwd"
-          required>
-        </div>
-      </form>
+              <label for="confirm-pwd">Confirmpassword:</label>
+              <input type="text"
+              name="pwd" 
+              id="confirm-pwd"
+              required>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </body>
